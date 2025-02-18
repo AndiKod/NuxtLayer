@@ -8,7 +8,7 @@ So far just an experimental Repository around NuxtLayers. The goal is to store t
 # nuxt.config.js
 export default defineNuxtConfig({
   extends: [
-    'gh:AndiKod/NuxtLayer/hello', // Extend from a git repository
+    'gh:AndiKod/NuxtLayer/hello', // Extend from a git repository sub-directory
   ]
 })
 ```
@@ -18,7 +18,7 @@ Or, if you keep all your coding projects in the same folder, you can clone the r
 # nuxt.config.js
 export default defineNuxtConfig({
   extends: [
-    '../NuxtLayer/hello', // Extend from a git repository
+    '../NuxtLayer/hello', // Extend from a locally cloned repository sub-directory
   ]
 })
 ```
